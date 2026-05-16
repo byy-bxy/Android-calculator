@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Main_Hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/dengl"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="126dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:layout_marginTop="2dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/kamikuang"
+                    android:layout_width="240dp"
+                    android:layout_height="35dp"
+                    android:background="#00D93E3E"
+                    android:backgroundTint="#7C3131"
+                    android:backgroundTintMode="src_atop"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="请输入密钥"
+                    android:textColorHint="#79000000"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/kaiqi"
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="13dp"
+                android:backgroundTint="#03A9F4"
+                android:shadowColor="#AB3B3B"
+                android:text="登录启动"
+                android:textColor="#FFFFFFFF"
+                android:textColorHighlight="#CA4949"
+                android:textColorHint="#AD2323"
+                android:textColorLink="#2E82A8"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:strokeColor="#7C2020" />
+
+            <Button
+                android:id="@+id/jiebang"
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="13dp"
+                android:backgroundTint="#03A9F4"
+                android:text="解绑激活"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/qunliao"
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#03A9F4"
+                android:text="加入我们"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/reset_im"
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#03A9F4"
+                android:text="重置模式"
+                android:textColor="#FFFFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
